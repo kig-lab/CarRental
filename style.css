@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(3, 3, 65);
+    /* font-family: 'Lucida Sans'; */
+}
+
+.title{
+    color: red;
+    font-size: 23px ;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.car_type{
+font-size: 18px;
+text-align: center;
+color: aquamarine;
+}
+.container{
+    display: flex;
+    /* background-color: antiquewhite; */
+    margin: 15px;
+    gap: 35px;
+}
+.container img{
+    width: 400px;
+    height: 350px;
+    border-radius: 20px;
+}
+.hero{
+    margin: 50px;
+    color: white;
+    font-size: 22px;
+    width: 50%;
+}
